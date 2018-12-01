@@ -1,0 +1,572 @@
+@-webkit-keyframes textAnimate1 {
+    from{
+        -webkit-transform: translateY(500%);  }
+    8%,30%{
+        -webkit-transform: translateY(0);}
+    35%,88%{
+        opacity: 1;
+        -webkit-transform: translateY(-207%);  }
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(-207%);  }
+}
+
+@keyframes textAnimate1 {
+    from {
+        transform: translateY(500%); }
+    8%,25% {
+        transform: translateY(0);}
+    30%,88% {
+        opacity: 1;
+        transform: translateY(-207%); }
+    to {
+        opacity: 0;
+        transform: translateY(-207%); }
+}
+.textAnimate1 {
+    -webkit-animation-name: textAnimate1;
+    animation-name: textAnimate1;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes textAnimate2 {
+    from {
+        -webkit-transform: translateY(0); }
+    84.5%{
+        opacity: 1;
+    }
+    to {
+        opacity: 0 }
+    }
+
+@keyframes textAnimate2 {
+    from {
+        transform: translateY(0); }
+    85%{
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+.textAnimate2 {
+    -webkit-animation-name: textAnimate2;
+    animation-name: textAnimate2;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+
+@-webkit-keyframes textAnimateLetter {
+    from{
+        -webkit-transform: translateY(63.29%);  }
+    10%{
+        -webkit-transform: translateY(0);}
+    to {
+        -webkit-transform: translateY(0);  }
+}
+
+@keyframes textAnimateLetter {
+    from {
+        transform: translateY(63.29%); }
+    10%{
+        transform: translateY(0);}
+    to {
+        transform: translateY(0); }
+}
+.textAnimateLetter {
+    -webkit-animation-name: textAnimateLetter;
+    animation-name: textAnimateLetter;
+    -webkit-animation-duration: 4s;
+    animation-duration: 4s;
+}
+
+@-webkit-keyframes amountAnimate {
+    from {
+        -webkit-transform: translate(-100px, 0);
+    }
+    6%, 20% {
+        -webkit-transform: translate(0, 0);
+    }
+    86.5% {
+        -webkit-transform: translate(0, -20%);
+    }
+    89% {
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        -webkit-transform: translate(0, 3%);
+    }
+    93%, to {
+        -webkit-transform: translate(0, -800%);
+    }
+}
+
+@keyframes amountAnimate {
+    from {
+        transform: translate(-100px, 0);
+    }
+    6%, 20% {
+        transform: translate(0, 0);
+    }
+    86.5% {
+        transform: translate(0, -20%);
+    }
+    89% {
+        animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+        transform: translate(0, 3%);
+    }
+    93%, to {
+        transform: translate(0, -800%);
+    }
+}
+
+.amountAnimate {
+    -webkit-animation: amountAnimate;
+    animation: amountAnimate;
+    -webkit-animation-duration: 11s;
+    animation-duration: 11s;
+}
+
+@-webkit-keyframes textAnimate4__calendar {
+    from {
+        -webkit-transform: translateY(20.83%) scale(0);
+    }
+    10%,40%{
+        -webkit-transform: translateY(20.83%) scale(1);}
+    50%,96%{
+        -webkit-transform: translateY(70%) scale(1);
+    }
+    to {
+        -webkit-transform: translateY(-250%) scale(1); }
+}
+
+@keyframes textAnimate4__calendar {
+    from {
+        transform: translateY(20.83%) scale(0);
+    }
+    10%,40%{
+        transform: translateY(20.83%) scale(1);}
+    50%,96%{
+        opacity: 1;
+        transform: translateY(70%) scale(1);
+    }
+    to {
+        opacity: 0;
+        transform: translateY(70%) scale(1); }
+}
+.textAnimate4__calendar {
+    -webkit-animation-name: textAnimate4__calendar;
+    animation-name: textAnimate4__calendar;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+}
+
+
+@-webkit-keyframes textAnimate4__amount {
+    from {
+        -webkit-transform: translateY(0) ;
+    }
+    10%,92%{
+        opacity: 1;
+        -webkit-transform: translateY(40%)
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(40%) ;
+    }
+}
+
+@keyframes textAnimate4__amount {
+    from {
+        transform: translateY(0) ;
+    }
+    10%,92%{
+        opacity: 1;
+        transform: translateY(40%)
+    }
+    to {
+        opacity: 0;
+        transform: translateY(40%) ;
+    }
+}
+.textAnimate4__amount {
+    -webkit-animation-name: textAnimate4__amount;
+    animation-name: textAnimate4__amount;
+    -webkit-animation-duration: 2.5s;
+    animation-duration: 2.5s;
+}
+
+
+
+
+@-webkit-keyframes textAnimate4Letter {
+    from{
+        -webkit-transform: translateY(10.42%);  }
+    10%{
+        -webkit-transform: translateY(0);}
+    to {
+        -webkit-transform: translateY(0);  }
+}
+
+@keyframes textAnimate4Letter {
+    from {
+        transform: translateY(10.42%); }
+    10%{
+        transform: translateY(0);}
+    to {
+        transform: translateY(0); }
+}
+
+.textAnimate4Letter {
+    -webkit-animation-name: textAnimate4Letter;
+    animation-name: textAnimate4Letter;
+    -webkit-animation-duration: 8s;
+    animation-duration: 8s;
+}
+
+@-webkit-keyframes textAnimate4LetterOut {
+    from {
+        opacity: 1; }
+    to {
+        opacity: 0; }
+}
+
+@keyframes textAnimate4LetterOut {
+    from {
+        opacity: 1;  }
+    to {
+        opacity: 0;  }
+}
+
+.textAnimate4LetterOut {
+    -webkit-animation-name: textAnimate4LetterOut;
+    animation-name: textAnimate4LetterOut;
+    -webkit-animation-duration: .2s;
+    animation-duration: .2s;
+}
+@-webkit-keyframes textAnimate5Letter {
+    from{
+        -webkit-transform: translateY(166%);  }
+    10%,to{
+        opacity: 1;
+        -webkit-transform: translateY(0);}
+}
+
+@keyframes textAnimate5Letter {
+    from {
+        transform: translateY(166%); }
+    10%,to{
+        transform: translateY(0);
+        opacity: 1;}
+}
+
+.textAnimate5Letter {
+    -webkit-animation-name: textAnimate5Letter;
+    animation-name: textAnimate5Letter;
+    -webkit-animation-duration: 6s;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes textAnimate5LetterOut {
+    from {
+        padding-top: 0%;
+    }
+    to {
+        padding-top: 10%;
+    }
+}
+
+@keyframes textAnimate5LetterOut {
+    from {
+        padding-top: 0%;
+    }
+    to {
+        padding-top: 10%;
+    }
+}
+
+.textAnimate5LetterOut {
+    -webkit-animation-name: textAnimate5LetterOut;
+    animation-name: textAnimate5LetterOut;
+    -webkit-animation-duration: .6s;
+    animation-duration: .6s;
+}
+
+
+@-webkit-keyframes textAnimate5__amount {
+    from {
+        -webkit-transform: translateY(0) ;
+    }
+    10%,90%{
+        -webkit-transform: translateY(25%);
+        padding-top: 0%;
+    }
+    to {
+        -webkit-transform: translateY(25%);
+        padding-top: 20.8%;
+    }
+}
+
+@keyframes textAnimate5__amount {
+    from {
+        transform: translateY(0) ;
+    }
+    10%,90%{
+        transform: translateY(25%);
+        padding-top: 0%;
+    }
+    to {
+        transform: translateY(25%);
+        padding-top: 20.8%;
+    }
+}
+.textAnimate5__amount {
+    -webkit-animation-name: textAnimate5__amount;
+    animation-name: textAnimate5__amount;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+}
+
+@-webkit-keyframes textAnimate6__calendar {
+    from {
+        -webkit-transform: translateY(100px) scale(0);
+    }
+    10%,84.8%{
+        opacity: 1;
+        -webkit-transform: translateY(60%) scale(1);}
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(60%) scale(1); }
+ }
+
+@keyframes textAnimate6__calendar {
+    from {
+        transform: translateY(100px) scale(0);
+    }
+    10%,84.8%{
+        opacity: 1;
+        transform: translateY(60%) scale(1);}
+    to {
+        transform: translateY(60%) scale(1);
+        opacity: 0 }
+}
+
+
+.textAnimate6__calendar {
+    -webkit-animation-name: textAnimate6__calendar;
+    animation-name: textAnimate6__calendar;
+    -webkit-animation-duration: 2.8s;
+    animation-duration: 2.8s;
+}
+
+@-webkit-keyframes textAnimate6__amount {
+    from {
+        -webkit-transform: translateY(0) ;
+    }
+    10%,92%{
+        opacity: 1;
+        -webkit-transform: translateY(40%)
+    }
+    to {
+        opacity: 0;
+        -webkit-transform: translateY(40%) ;
+    }
+}
+
+
+@keyframes textAnimate6__amount {
+    from {
+        transform: translateY(0) ;
+    }
+    10%,92%{
+        opacity: 1;
+        transform: translateY(40%)
+    }
+    to {
+        opacity: 0;
+        transform: translateY(40%) ;
+    }
+}
+
+.textAnimate6__amount {
+    -webkit-animation-name: textAnimate6__amount;
+    animation-name: textAnimate6__amount;
+    -webkit-animation-duration: 5.8s;
+    animation-duration: 5.8s;
+}
+
+
+
+
+@keyframes textAnimate6Letter {
+    from ,92.125%{
+        opacity: 1;
+    }
+    to {
+        opacity: 0;
+    }
+}
+
+.textAnimate6Letter {
+    -webkit-animation-name: textAnimate6Letter;
+    animation-name: textAnimate6Letter;
+    -webkit-animation-duration: 7.3s;
+    animation-duration: 7.3s;
+}
+
+@-webkit-keyframes textAnimate7__block1__Letter {
+    from{
+        -webkit-transform: translate(-31.1%,0) }
+    10%{
+        -webkit-transform: translate(0,0)}
+    85%{
+        opacity: 1;
+        -webkit-transform: translate(0,-31.25%)}
+    89%,to{
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        -webkit-transform: translate(0,31.25%)}
+}
+
+
+@keyframes textAnimate7__block1__Letter {
+    from{
+        transform: translate(-31.1%,0) }
+    10%{
+        transform: translate(0,0)}
+    85%{
+        opacity: 1;
+        transform: translate(0,-31.25%)}
+    89%,to{
+        opacity: 0;
+        animation-timing-function: ease-in;
+        transform: translate(0,31.25%)}
+}
+
+.textAnimate7__block1__Letter {
+    -webkit-animation-name: textAnimate7__block1__Letter;
+    animation-name: textAnimate7__block1__Letter;
+    -webkit-animation-duration: 9s;
+    animation-duration: 9s;
+}
+
+
+
+
+@-webkit-keyframes textAnimate7__block1__amount {
+    from{
+        -webkit-transform: translate(-18.939%,0)  }
+    10%{
+        -webkit-transform: translate(0,0)}
+    84.8%{
+        opacity: 1;
+        -webkit-transform: translate(0,-14.705%)}
+    88.99%,to {
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        -webkit-transform: translate(0,14.705%)}
+}
+
+
+
+@keyframes textAnimate7__block1__amount {
+    from{
+        transform: translate(-18.939%,0)  }
+    10%{
+        transform: translate(0,0)}
+    84.8%{
+        opacity: 1;
+        transform: translate(0,-14.705%)}
+    88.99%, to{
+        opacity: 0;
+        animation-timing-function: ease-in;
+        transform: translate(0,14.705%)}
+}
+
+.textAnimate7__block1__amount {
+    -webkit-animation-name: textAnimate7__block1__amount;
+    animation-name: textAnimate7__block1__amount;
+    -webkit-animation-duration: 8.9s;
+    animation-duration: 8.9s;
+}
+
+
+
+
+
+
+@-webkit-keyframes textAnimate7__block2__Letter {
+    from{
+        -webkit-transform: translate(31.1%,0) }
+    10%{
+        -webkit-transform: translate(0,0)}
+    73.6%{
+        opacity: 1;
+        -webkit-transform: translate(0,-31.25%)}
+    80%,to{
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        -webkit-transform: translate(0,31.25%)}
+}
+
+
+
+@keyframes textAnimate7__block2__Letter {
+    from{
+        transform: translate(31.1%,0) }
+    10%{
+        transform: translate(0,0)}
+    73.6%{
+        opacity: 1;
+        transform: translate(0,-31.25%)}
+    80%,to {
+        opacity: 0;
+        animation-timing-function: ease-in;
+        transform: translate(0,31.25%)}
+}
+
+.textAnimate7__block2__Letter {
+    -webkit-animation-name: textAnimate7__block2__Letter;
+    animation-name: textAnimate7__block2__Letter;
+    -webkit-animation-duration: 5s;
+    animation-duration: 5s;
+}
+
+
+
+@-webkit-keyframes textAnimate7__block2__amount {
+    from{
+        -webkit-transform: translate(-18.939%,0)  }
+    10%{
+        -webkit-transform: translate(0,0)}
+    72.45%{
+        opacity: 1;
+        -webkit-transform: translate(0,-14.705%)}
+    80%, to{
+        opacity: 0;
+        -webkit-animation-timing-function: ease-in;
+        -webkit-transform: translate(0,14.705%)}
+}
+
+
+
+@keyframes textAnimate7__block2__amount {
+    from{
+        transform: translate(-18.939%,0)  }
+    10%{
+        transform: translate(0,0)}
+    72.45%{
+        opacity: 1;
+        transform: translate(0,-14.705%)}
+    80%,to{
+        opacity: 0;
+        animation-timing-function: ease-in;
+        transform: translate(0,14.705%)}
+}
+
+.textAnimate7__block2__amount {
+    -webkit-animation-name: textAnimate7__block2__amount;
+    animation-name: textAnimate7__block2__amount;
+    -webkit-animation-duration: 4.9s;
+    animation-duration: 4.9s;
+}

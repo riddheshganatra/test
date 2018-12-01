@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html class="no-js" lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Video</title>
+
+    <link href="//vjs.zencdn.net/5.19/video-js.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="/stylesheets/animate.css">
+    <link rel="stylesheet" href="/stylesheets/main.css">
+    <style>
+        @font-face {
+            font-family: century;
+            src: url(/fonts/CenturyGothicRegular.ttf);
+        }
+    </style>
+</head>
+
+<body style="text-align: center">
+
+    <h1 style='font-family: century;'>HDFC Yaris</h1>
+    <div style="text-align: center;">
+        <!-- This browser is not supported for video viewing. <br> -->
+        Please launch the webpage in one of the following browsers : <br>
+        <ul style="list-style-position: inside;">
+            <li>Google Chrome</li>
+            <li>Mozilla Firefox</li>
+            <li>Safari Browser</li>
+        </ul>
+<h1 style='font-family: century;'>Redirecting to Chrome...</b></h1>
+    </div>
+    <a id="ios" >Click here to redirect to Chrome Browser</a>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-migrate-1.3.0.js"></script>
+    <script src="/ua-parser.js"></script>
+
+
+
+<script>
+$(document).ready(function() {
+    var parser = new UAParser();
+    var os = parser.getOS();
+    var a = os?JSON.stringify(os.name).toLowerCase():"";
+    var link = window.location.href;
+    link = link.split('\/\/')[1];
+       if(a.indexOf("android") > -1 || a.indexOf("linux") > -1){
+         jQuery("#ios").attr('href','googlechrome://navigate?url='+window.location.href);
+         jQuery('#ios')[0].click();
+         
+         //window.location.href = "googlechrome://navigate?url=google.com";
+       } else if (a.indexOf("ios") > -1){
+         jQuery("#ios").attr('href','googlechrome://'+link);
+         jQuery('#ios')[0].click();
+       }
+
+
+  });
+</script>
+
+</body>
+
+</html>

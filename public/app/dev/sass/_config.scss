@@ -1,0 +1,502 @@
+.b-text-animation> *:not(#textAnimate1) {
+    transform: skew(5deg);
+}
+#textAnimationBlock {
+    color: #fff;
+}
+#textAnimate1 {
+    position: absolute;
+    top: 47.9167%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    font-size: 70px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    display: inline-block;
+}
+
+@media (max-width: 854px) {
+    #textAnimate1 {
+        font-size: 8.1967vw;
+    }
+}
+
+.vjs-fullscreen #textAnimate1 {
+    font-size: 8.1967vw;
+    top: 26.93vw;
+}
+
+.textAnimate2 {
+    display: flex;
+}
+
+#textAnimate2 {
+    position: absolute;
+    display: flex;
+    top: 52.7%;
+    left: 18.2%;
+    font-size: 60px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    color: #000048;
+    overflow: hidden;
+}
+
+@media (max-width: 854px) {
+    #textAnimate2 {
+        font-size: 7.0257vw;
+    }
+}
+
+.vjs-fullscreen #textAnimate2 {
+    font-size: 7.0257vw;
+}
+
+#amount {
+    height: 50px;
+    position: absolute;
+    left: 55%;
+    top: 12%;
+    font-size: 54px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    color: #000048;
+}
+
+@media (max-width: 854px) {
+    #amount {
+        font-size: 6.3vw;
+    }
+}
+
+.vjs-fullscreen #amount {
+    font-size: 6.3vw;
+    top: 6.79vw;
+}
+
+#chart {
+    height: 300px;
+    width: 300px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 0 26px #000048, inset 0 0 0 26px #0ca6ee;
+}
+
+#calendar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    background: #079f00;
+    padding: 0 5% 5%;
+    border-radius: 10px;
+    font-size: 32px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    color: #fff;
+    text-align: center;
+}
+
+.js-ios #calendar {
+    top: 0;
+    left: 50%;
+    margin-left: -25%;
+}
+
+.js-ios #calendar2 {
+    left: 50%;
+    margin-left: -25%;
+}
+
+@media (max-width: 854px) {
+    #calendar {
+        border-radius: 1.17vw;
+        font-size: 3.75vw;
+        text-align: center;
+    }
+}
+
+.vjs-fullscreen #calendar {
+    border-radius: 1.17vw;
+    font-size: 3.75vw;
+}
+
+.calendar__month {
+    display: flex;
+    align-items: center;
+    height: 20%;
+}
+
+.calendar__data {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 5;
+    background: #fff;
+    height: 100%;
+    width: 100%;
+    color: #079f00;
+    font-size: 17px;
+    font-weight: 400;
+}
+
+@media (max-width: 854px) {
+    .calendar__data {
+        font-size: 2vw;
+    }
+}
+
+.vjs-fullscreen .calendar__data {
+    font-size: 2vw;
+}
+
+.calendar__data > span:nth-child(1) {
+    font-weight: 900;
+    font-size: 650%;
+    line-height: 90%;
+}
+
+.textAnimate4 {
+    display: flex;
+    color: #000048;
+}
+
+#textAnimate4 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 14.4%;
+    left: 50.8%;
+    width: 40%;
+    height: 80%;
+    font-size: 26px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+@media (max-width: 854px) {
+    #textAnimate4 {
+        font-size: 3.04vw;
+    }
+}
+
+.vjs-fullscreen #textAnimate4 {
+    top: 8.08vw;
+    font-size: 3.04vw;
+}
+
+#textAnimate4amount {
+    display: flex;
+    font-size: 72px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    color: #000048;
+}
+
+@media (max-width: 854px) {
+    #textAnimate4amount {
+        font-size: 8.4vw;
+    }
+}
+
+.vjs-fullscreen #textAnimate4amount {
+    font-size: 8.4vw;
+}
+
+.textAnimate5 {
+    position: absolute;
+    top: 10%;
+    left: 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+    width: 40%;
+    font-size: 32px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+    color: #000048;
+    overflow: hidden;
+}
+
+@media (max-width: 854px) {
+    .textAnimate5 {
+        font-size: 3.74vw;
+    }
+}
+
+.vjs-fullscreen .textAnimate5 {
+    font-size: 3.74vw;
+}
+
+.textAnimate5Letter {
+    overflow: hidden;
+    height: 31px;
+}
+
+@media (max-width: 854px) {
+    .textAnimate5Letter {
+        height: 3.63vw;
+    }
+}
+
+.vjs-fullscreen .textAnimate5Letter {
+    height: 3.63vw;
+}
+
+#textAnimate5amount {
+    font-size: 72px;
+    overflow: hidden;
+    height: 71px;
+}
+
+@media (max-width: 854px) {
+    #textAnimate5amount {
+        font-size: 8.43vw;
+        height: 8.313vw;
+    }
+}
+
+.vjs-fullscreen #textAnimate5amount {
+    font-size: 8.43vw;
+    height: 8.313vw;
+}
+
+.textAnimate6 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 15%;
+    right: 53%;
+    width: 40%;
+    height: 80%;
+    font-size: 32px;
+    color: #000048;
+}
+
+@media (max-width: 854px) {
+    .textAnimate6 {
+        font-size: 3.75vw;
+    }
+}
+
+.vjs-fullscreen .textAnimate6 {
+    font-size: 3.75vw;
+}
+
+.textAnimate6 .calendar__data {
+    color: #960005;
+}
+
+#textAnimate6 {
+    display: flex;
+}
+
+#textAnimate6amount {
+    font-family: "Segoe UI";
+    font-size: 72px;
+    font-weight: 900;
+}
+
+@media (max-width: 854px) {
+    #textAnimate6amount {
+        font-size: 8.43vw;
+    }
+}
+
+.vjs-fullscreen #textAnimate6amount {
+    font-size: 8.43vw;
+}
+
+#calendar2 {
+    position: absolute;
+    top: 8.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 50%;
+    width: 50%;
+    padding: 0 5% 5%;
+    border-radius: 10px;
+    background: #960005;
+    font-size: 32px;
+    font-family: "Segoe UI";
+    text-align: center;
+    font-weight: 900;
+    color: #fff;
+}
+
+@media (max-width: 854px) {
+    #calendar2 {
+        font-size: 3.75vw;
+    }
+}
+
+.vjs-fullscreen #calendar2 {
+    font-size: 3.75vw;
+}
+
+.textAnimate7 {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    top: 15%;
+    right: 10%;
+    width: 38%;
+    height: 71%;
+    font-size: 28px;
+    color: #000048;
+}
+
+@media (max-width: 854px) {
+    .textAnimate7 {
+        font-size: 3.75vw;
+    }
+}
+
+.vjs-fullscreen .textAnimate7 {
+    font-size: 3.2vw;
+}
+
+.textAnimate7__block1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.textAnimate7__block1 > div {
+    text-align: left;
+}
+
+.textAnimate7__block2 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.textAnimate7__block2 > div {
+    text-align: right;
+}
+
+#textAnimate7__amount1,
+#textAnimate7__amount2 {
+    font-size: 56px;
+    font-family: "Segoe UI";
+    font-weight: 900;
+}
+
+@media (max-width: 854px) {
+    #textAnimate7__amount1,
+    #textAnimate7__amount2 {
+        font-size: 6.557vw;
+    }
+}
+
+.vjs-fullscreen #textAnimate7__amount1,
+.vjs-fullscreen #textAnimate7__amount2 {
+    font-size: 6.557vw;
+}
+
+/* JS helper classes */
+
+.js-pause-animation {
+    -webkit-animation: none !important;
+    animation: none !important;
+}
+
+
+// @font-face {
+//     font-family: 'Montserrat';
+//     src: url(../fonts/Montserrat-SemiBold.ttf);
+//     font-weight: 600;
+//     font-style: normal;
+// }
+
+.d-flex {
+    display: flex;
+}
+.space {
+    width: 8px;
+}
+/*
+    font-family: 'SegoeUI';
+*/
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/SegoeUI-Light.eot');
+    src: local('Segoe UI Light'), local('../fonts/SegoeUI/SegoeUI-Light'),
+    url('../fonts/SegoeUI/SegoeUI-Light.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUI-Light.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUI-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/SegoeUI-BoldItalic.eot');
+    src: local('Segoe UI Bold Italic'), local('../fonts/SegoeUI/SegoeUI-BoldItalic'),
+    url('../fonts/SegoeUI/SegoeUI-BoldItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUI-BoldItalic.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUI-BoldItalic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/SegoeUI-SemiBold.eot');
+    src: local('Segoe UI Semibold'), local('../fonts/SegoeUI/SegoeUI-SemiBold'),
+    url('../fonts/SegoeUI/SegoeUI-SemiBold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUI-SemiBold.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUI-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/SegoeUI.eot');
+    src: local('Segoe UI'), local('../fonts/SegoeUI/SegoeUI'),
+    url('../fonts/SegoeUI/SegoeUI.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUI.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUI.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/SegoeUI-Bold.eot');
+    src: local('Segoe UI Bold'), local('../fonts/SegoeUI/SegoeUI-Bold'),
+    url('../fonts/SegoeUI/SegoeUI-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUI-Bold.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUI-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Segoe UI';
+    src: url('../fonts/SegoeUI/SegoeUI-Italic.eot');
+    src: local('Segoe UI Italic'), local('../fonts/SegoeUI/SegoeUI-Italic'),
+    url('../fonts/SegoeUI/SegoeUI-Italic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/SegoeUI/SegoeUI-Italic.woff') format('woff'),
+    url('../fonts/SegoeUI/SegoeUI-Italic.ttf') format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+// .b-video-player-wrapper {
+//     background: url('../img/imgpsh_fullsize.png') no-repeat center center;
+//     background-size: cover;
+// }
